@@ -5,7 +5,7 @@ set REPO=holdem_cardfield
 fsum -r -jm -md5 -d%REPO% * > checksum.md5
 move checksum.md5 %REPO%/checksum.md5
 
-quick_manifest.exe "holdem_cardfield" "1111111111" >%REPO%/manifest.json
+quick_manifest.exe "holdem_cardfield" "363320830" >%REPO%/manifest.json
 
 %ZIP% %REPO%_20.zip *.py %REPO%/*
 
